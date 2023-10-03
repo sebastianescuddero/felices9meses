@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/fe/1b/2a/fe1b2ac2b8d2daa3480724aa11399fc3.jpg");
+    background-size: 12rem;
+}
+
+.container {
+    margin-top: 20px; 
+    background-color: lemonchiffon; 
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.boton-destacado {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton-destacado:hover {
+    transform: scale(1.1); 
+}
